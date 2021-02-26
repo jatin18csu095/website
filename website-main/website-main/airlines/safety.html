@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AirLines | Safety</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/alert.js" ></script>
+</head>
+<body id="page3">
+<div class="body1">
+  <div class="main">
+    <header>
+      <div class="wrapper">
+        <h1><a href="index.html" id="logo">AirLines</a><span id="slogan">International Travel</span></h1>
+        <div class="right">
+          <nav>
+            <ul id="top_nav">
+              <li><a href="index.html"><img src="images/img1.gif" alt=""></a></li>
+              <li><a href="contacts.html"><img src="images/img2.gif" alt=""></a></li>
+              <li class="bg_none"><a href="aircrafts.html"><img src="images/img3.gif" alt=""></a></li>
+            </ul>
+          </nav>
+          <nav>
+            <ul id="menu">
+              <li><a href="charters.html">Login</a></li>
+              <li><a href="safety.html">Register</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
+</div>
+<div class="main">
+  <div id="banner">
+    <div class="text1"> Passport<span>Sewa</span>
+    </div>
+  </div>
+</div>
+<div class="main">
+  <section id="content">
+    <article class="col1">
+      <div class="pad_1">
+        <h2>Enter your details</h2>
+        <form method="POST" action="php/server.php">
+          <div class="wrapper">
+            First Name:<br>
+            <input type="text" name="fname" required><br>
+            Last Name:<br>
+            <input type="text" name="lname" required><br>
+            Email:<br>
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{​​2,}​​$"  required><br>
+            Password:<br>
+            <input type="password" id="pwd" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+            Phone Number:<br>
+            <input type="number" name="phone" pattern="^\d{10}$" required ><br>
+            Date Of Birth:<br>
+            <input type="date" id="start" name="dob" value="2002-12-02" min="1950-01-01" max="2002-12-02" required><br><br>
+            <button type="submit" onClick="myfunction()" class="button2" name="reg_user">Submit</a><br>
+        </form>
+      </div>
+    </article>
+    <article class="col2 pad_left1">
+      <h2>Try these:</h2>
+      <div class="wrapper">
+        <figure class="left marg_right1"><img src="images/page4_img1.png" alt=""></figure>
+        <p><strong>SQL Injection</strong> </p>
+        <ul class="list1 left pad_bot1">
+          <li>'or'1'='1--</li>
+          <li>'</li>
+          <li>admin') or '1'='1'--</li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <figure class="left marg_right1"><img src="images/page4_img3.png" alt=""></figure>
+        <p><strong>Broken Authentication and Session Management</strong> </p>
+      </div>
+      <div class="wrapper">
+        <figure class="left marg_right1"><img src="images/page4_img4.png" alt=""></figure>
+        <p><strong>Cross-Site Scripting</strong> </p>
+      </div>
+    </article>
+  </section>
+</div>
+<div class="body2">
+  <div class="main">
+    <footer>
+      <div class="footerlink">
+        <p class="lf">Copyright &copy; 2010 <a href="#">CS-V-CyS-A</a> - All Rights Reserved</p>
+        <p class="rf">Design by ME</p>
+        <div style="clear:both;"></div>
+      </div>
+    </footer>
+  </div>
+</div>
+<a href="register.php">asd</a>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>
